@@ -1,0 +1,9 @@
+#!/bin/bash 
+echo "Input file name "
+read filename
+
+echo "#!/bin/bash" > ${filename}
+
+echo "enter  permission code"
+read permissioncode
+chmod ${permissioncode} ${filename}

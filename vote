@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Enter user_name"
+read user_name
+
+echo -e "Enter your age /n in (number)"
+read age
+
+echo "Nationality"
+read natio
+
+echo "Your name is ${user_name} , your age is ${age} and your nationality is ${natio}"
+
+echo -e "name: ${user_name} /n age :${age} /n nationality: ${natio}" > ${user_name}
+
